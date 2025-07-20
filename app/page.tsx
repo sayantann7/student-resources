@@ -51,7 +51,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <motion.div 
-        className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-start items-center text-white relative bg-[url('/bg.png')] pt-[140px]"
+        className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-start items-center text-white relative bg-[url('/bg.png')] nd:pt-[150px] pt-[180px]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -59,7 +59,7 @@ export default function Home() {
         
         {/* Hero content */}
         <motion.div 
-          className="relative z-10 text-center px-4 max-w-7xl"
+          className="relative z-10 text-center px-4 md:max-w-8xl"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
