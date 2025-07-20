@@ -290,7 +290,7 @@ export default function Home() {
                   {/* Program Name */}
                   <h3 
                     className="text-xl font-semibold text-gray-900 mb-2"
-                    style={{ fontFamily: 'The Seasons, serif' }}
+                    style={{ fontFamily: 'The Seasons, serif', fontWeight: 700 }}
                   >
                     {resource["Program Name"]}
                   </h3>
