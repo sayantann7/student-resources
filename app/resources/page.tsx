@@ -49,11 +49,9 @@ export default function ResourcesPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Fixed Left Sidebar */}
-      {/* Fixed Compact Sidebar */}
-              {/* Fixed Sidebar */}
+      {/* Desktop Sidebar - Fixed Left */}
       <motion.div 
-        className="fixed left-4 top-[47vh] transform -translate-y-1/2 z-20"
+        className="hidden md:block fixed left-4 top-[47vh] transform -translate-y-1/2 z-20"
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
@@ -153,8 +151,95 @@ export default function ResourcesPage() {
         </div>
       </motion.div>
 
-      {/* Main Content Area - with small left margin for compact sidebar */}
-      <div className="ml-20">
+      {/* Mobile Sidebar - Fixed Bottom */}
+      <motion.div 
+        className="md:hidden fixed bottom-0 left-0 right-0 z-[100] p-4 pb-safe bg-gradient-to-t from-black/20 to-transparent"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        style={{ height: 'calc(env(safe-area-inset-bottom) + 80px)' }}
+      >
+        <div className="flex justify-center">
+          {/* Glassmorphism container */}
+          <div 
+            className="rounded-xl p-2 transition-all duration-300"
+            style={{
+              background: 'rgba(255, 255, 255, 0.15)',
+              backdropFilter: 'blur(15px)',
+              WebkitBackdropFilter: 'blur(15px)',
+              border: '1px solid rgba(255, 255, 255, 0.2)',
+              boxShadow: `
+                0 12px 28px rgba(0, 0, 0, 0.12),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3),
+                inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+                inset 0 0 3px 2px rgba(255, 255, 255, 0.1)
+              `
+            }}
+          >
+            {/* Category Navigation - Horizontal layout for mobile */}
+            <div className="flex space-x-2">
+              {categories.map((category, index) => (
+                <motion.button
+                  key={category.key}
+                  onClick={() => setActiveCategory(category.key)}
+                  className={`relative w-12 h-12 rounded-xl transition-all duration-300 ease-out flex items-center justify-center backdrop-blur-lg ${
+                    activeCategory === category.key
+                      ? 'bg-white/80 border border-white/50 shadow-lg text-black'
+                      : 'bg-white/50 border border-white/20 hover:bg-white/100 hover:border-white/40 text-black'
+                  }`}
+                  style={{
+                    backdropFilter: 'blur(20px)',
+                    WebkitBackdropFilter: 'blur(20px)',
+                    border: activeCategory === category.key 
+                      ? '1px solid rgba(255, 255, 255, 0.6)' 
+                      : '1px solid rgba(255, 255, 255, 0.2)',
+                    boxShadow: activeCategory === category.key 
+                      ? `
+                        0 8px 32px rgba(0, 0, 0, 0.12),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.8),
+                        inset 0 -1px 0 rgba(255, 255, 255, 0.3),
+                        inset 0 0 6px 3px rgba(255, 255, 255, 0.4)
+                      `
+                      : `
+                        0 4px 12px rgba(0, 0, 0, 0.08),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+                        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+                        inset 0 0 2px 1px rgba(255, 255, 255, 0.15)
+                      `
+                  }}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4, delay: 0.4 + (0.1 * index) }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <span className="text-lg">{category.icon}</span>
+                  
+                  {/* Glassmorphism highlight lines */}
+                  <div 
+                    className="absolute top-0 left-0 right-0 h-px"
+                    style={{
+                      background: activeCategory === category.key 
+                        ? 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 1), transparent)'
+                        : 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent)'
+                    }}
+                  />
+                  <div 
+                    className="absolute top-0 left-0 w-px h-full"
+                    style={{
+                      background: activeCategory === category.key 
+                        ? 'linear-gradient(180deg, rgba(255, 255, 255, 1), transparent, rgba(255, 255, 255, 0.5))'
+                        : 'linear-gradient(180deg, rgba(255, 255, 255, 0.4), transparent, rgba(255, 255, 255, 0.2))'
+                    }}
+                  />
+                </motion.button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Main Content Area - responsive margin */}
+      <div className="md:ml-20 ml-0 mb-20 md:mb-0">
         {/* Header Section */}
         <motion.div 
           className="py-20 px-4 pb-8 mt-6"
