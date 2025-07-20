@@ -122,7 +122,10 @@ export default function Home() {
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link href="/resources" className="relative z-10">Unlock Your Benefits</Link>
+            <Link href="/resources" className="relative z-10 flex items-center justify-center">
+              <span>Unlock Your Benefits</span>
+              <img src="/arrow.png" alt="Arrow" className="ml-2 w-10 h-10 mb-1" />
+            </Link>
             <div 
               className="absolute top-0 left-0 right-0 h-px"
               style={{
