@@ -10,11 +10,27 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <motion.div 
-        className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-start items-center text-white relative bg-[url('/bg.png')] nd:pt-[150px] pt-[180px]"
+        className="min-h-screen flex flex-col justify-start items-center text-white relative nd:pt-[150px] pt-[180px]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
+        {/* Video Background */}
+        <video 
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/bg-video.mp4" type="video/mp4" />
+          {/* Fallback for browsers that don't support video */}
+          <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat bg-[url('/bg.png')]" />
+        </video>
+        
+        {/* Dark overlay for better text readability */}
+        <div className="absolute top-0 left-0 w-full h-full bg-black/20 z-1" />
+        
         
         {/* Hero content */}
         <motion.div 
