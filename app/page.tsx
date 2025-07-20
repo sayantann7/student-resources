@@ -4,8 +4,42 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
+  const words = ['Students', 'Dreamers', 'Makers'];
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const [currentText, setCurrentText] = useState('');
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const typeSpeed = isDeleting ? 50 : 100;
+    const word = words[currentWordIndex];
+
+    const timer = setTimeout(() => {
+      if (!isDeleting) {
+        // Typing
+        if (currentText.length < word.length) {
+          setCurrentText(word.substring(0, currentText.length + 1));
+        } else {
+          // Finished typing, wait then start deleting
+          setTimeout(() => setIsDeleting(true), 2000);
+        }
+      } else {
+        // Deleting
+        if (currentText.length > 0) {
+          setCurrentText(word.substring(0, currentText.length - 1));
+        } else {
+          // Finished deleting, move to next word
+          setIsDeleting(false);
+          setCurrentWordIndex((prev) => (prev + 1) % words.length);
+        }
+      }
+    }, typeSpeed);
+
+    return () => clearTimeout(timer);
+  }, [currentText, isDeleting, currentWordIndex, words]);
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -56,7 +90,15 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            Curated free tools for <span style={{ fontFamily: 'The Seasons', fontWeight: 700 }}>Students, Dreamers, and Makers</span>. In a world of noise, cut the noise and build with clarity.
+            Curated free tools for{' '}
+            <span 
+              className="inline-block md:w-[94px] w-[86px] text-left"
+              style={{ fontFamily: 'The Seasons', fontWeight: 700 }}
+            >
+              {currentText}
+              <span className="animate-pulse">|</span>
+            </span>
+             In a world of noise, cut the noise and build with clarity.
           </motion.p>
           
           <motion.button 
@@ -80,7 +122,7 @@ export default function Home() {
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link href="/resources" className="relative z-10">Get Started</Link>
+            <Link href="/resources" className="relative z-10">Unlock Your Benefits</Link>
             <div 
               className="absolute top-0 left-0 right-0 h-px"
               style={{
