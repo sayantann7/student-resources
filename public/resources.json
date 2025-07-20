@@ -1,0 +1,978 @@
+{
+  "tools_and_software": [
+    {
+      "Program Name": "Microsoft Office 365 Education",
+      "Program Value": "Free lifetime access",
+      "Tags": ["productivity", "office", "documents", "email", "cloud storage"],
+      "Description": "Complete Microsoft Office suite including Word, Excel, PowerPoint, Teams, OneNote, and 1TB OneDrive storage. Free for students with valid school email addresses.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg",
+      "Apply Link": "https://www.microsoft.com/en-us/education/products/office"
+    },
+    {
+      "Program Name": "JetBrains Student Pack",
+      "Program Value": "Free access to all IDEs",
+      "Tags": ["programming", "IDE", "development", "coding"],
+      "Description": "Free access to all JetBrains professional IDEs including IntelliJ IDEA Ultimate, PyCharm Professional, WebStorm, and more. Plus 40% graduation discount for 2 years after.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg",
+      "Apply Link": "https://www.jetbrains.com/community/education/#students"
+    },
+    {
+      "Program Name": "GitHub Student Developer Pack",
+      "Program Value": "$200,000+ in value",
+      "Tags": ["coding", "version control", "cloud", "development tools"],
+      "Description": "Access to 100+ tools including GitHub Pro, domain names, cloud credits, and development tools. The best real-world tools for students.",
+      "Program Company Icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "Apply Link": "https://education.github.com/pack"
+    },
+    {
+      "Program Name": "Adobe Creative Cloud Student",
+      "Program Value": "60% discount",
+      "Tags": ["design", "creativity", "photo editing", "video editing"],
+      "Description": "Get Photoshop, Illustrator, Premiere Pro, After Effects and 20+ creative apps for ₹1,499/month (60% off regular price). Verification through school email.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg",
+      "Apply Link": "https://www.adobe.com/in/creativecloud/buy/students.html"
+    },
+    {
+      "Program Name": "Notion Education Plan",
+      "Program Value": "Free Pro Plan",
+      "Tags": ["productivity", "notes", "collaboration", "knowledge management"],
+      "Description": "Free Notion Plus plan with unlimited blocks, file uploads, and collaboration features for students and educators with .edu email.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+      "Apply Link": "https://www.notion.com/product/notion-for-education"
+    },
+    {
+      "Program Name": "Canva Pro for Education",
+      "Program Value": "Free Pro access",
+      "Tags": ["design", "graphics", "presentations", "social media"],
+      "Description": "Free Canva Pro with premium templates, unlimited storage, background remover, and team collaboration for verified students.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg",
+      "Apply Link": "https://www.canva.com/edu-signup/"
+    },
+    {
+      "Program Name": "Figma Education Plan",
+      "Program Value": "Free Professional Plan",
+      "Tags": ["design", "UI/UX", "prototyping", "collaboration"],
+      "Description": "Free Figma Professional plan for students and educators including unlimited files, projects, and FigJam boards.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+      "Apply Link": "https://www.figma.com/education/"
+    },
+    {
+      "Program Name": "Spotify Premium Student",
+      "Program Value": "50% discount",
+      "Tags": ["music", "entertainment", "streaming"],
+      "Description": "Spotify Premium at ₹59/month (50% off) for verified college students. Ad-free music, offline downloads, and unlimited skips.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg",
+      "Apply Link": "https://www.spotify.com/in-en/student/"
+    },
+    {
+      "Program Name": "Amazon Prime Student",
+      "Program Value": "50% discount + 6 months free",
+      "Tags": ["shopping", "streaming", "delivery", "entertainment"],
+      "Description": "6 months free trial then ₹79/month (50% off). Includes free delivery, Prime Video, Prime Music, and exclusive deals.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "Apply Link": "https://www.amazon.in/joinstudent"
+    },
+    {
+      "Program Name": "Swiggy Student Rewards",
+      "Program Value": "Free Swiggy One + discounts",
+      "Tags": ["food delivery", "discounts", "dineout"],
+      "Description": "Free Swiggy One for 3 months, ₹200 off orders above ₹699, 20% off dineout bills. Active in 2000+ campuses across 200+ cities.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/1/12/Swiggy_logo.svg",
+      "Apply Link": "https://www.swiggy.com/swiggy-one"
+    },
+    {
+      "Program Name": "AWS Educate",
+      "Program Value": "$100 in credits",
+      "Tags": ["cloud computing", "AWS", "infrastructure", "learning"],
+      "Description": "Free AWS credits, training content, and career pathways. Access to AWS services for learning cloud computing.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+      "Apply Link": "https://aws.amazon.com/education/awseducate/"
+    },
+    {
+      "Program Name": "Tableau for Students",
+      "Program Value": "Free 1-year license",
+      "Tags": ["data visualization", "analytics", "business intelligence"],
+      "Description": "Free one-year license of Tableau Desktop for students. Professional data visualization and analytics software.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png",
+      "Apply Link": "https://www.tableau.com/academic/students"
+    },
+    {
+      "Program Name": "Autodesk Education Plan",
+      "Program Value": "Free 3-year access",
+      "Tags": ["CAD", "3D modeling", "engineering", "architecture"],
+      "Description": "Free access to AutoCAD, Fusion 360, Maya, 3ds Max and 100+ Autodesk products for 3 years for students and educators.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Autodesk_Logo.svg",
+      "Apply Link": "https://www.autodesk.com/education/edu-software/overview"
+    },
+    {
+      "Program Name": "LinkedIn Premium Student",
+      "Program Value": "50% discount",
+      "Tags": ["professional networking", "career", "learning", "job search"],
+      "Description": "LinkedIn Premium at 50% off for students. Includes LinkedIn Learning courses, InMail credits, and job insights.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+      "Apply Link": "https://www.linkedin.com/premium/products/"
+    },
+    {
+      "Program Name": "UNiDAYS Platform",
+      "Program Value": "Access to exclusive discounts",
+      "Tags": ["discounts", "shopping", "lifestyle", "verification platform"],
+      "Description": "Free student verification platform providing exclusive discounts from Apple, Samsung, H&M, ASOS, and 800+ brands.",
+      "Program Company Icon": "https://cdn.unidays.world/v5/assets/unidays-logo.svg",
+      "Apply Link": "https://www.myunidays.com/IN/en-IN"
+    },
+    {
+      "Program Name": "Flipkart Student Club",
+      "Program Value": "Free Plus membership + discounts",
+      "Tags": ["shopping", "e-commerce", "discounts", "free delivery"],
+      "Description": "Free Flipkart Plus membership with extra discounts, priority sale access, and free delivery for verified students.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/7/7a/Flipkart_logo.svg",
+      "Apply Link": "https://www.flipkart.com/plus"
+    },
+    {
+      "Program Name": "Google Workspace for Education",
+      "Program Value": "Free access",
+      "Tags": ["productivity", "collaboration", "email", "cloud storage"],
+      "Description": "Free access to Gmail, Drive with unlimited storage, Docs, Sheets, Slides, and Meet for students with institutional accounts.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "Apply Link": "https://edu.google.com/workspace-for-education/editions/education-fundamentals/"
+    },
+    {
+      "Program Name": "Slack for Education",
+      "Program Value": "Free Pro plan",
+      "Tags": ["communication", "collaboration", "team chat", "productivity"],
+      "Description": "Free Slack Pro plan for student organizations with unlimited message history, guest access, and app integrations.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png",
+      "Apply Link": "https://slack.com/help/articles/206646877-Apply-for-the-Slack-for-Education-discount"
+    },
+    {
+      "Program Name": "Zoom for Education",
+      "Program Value": "Free unlimited meetings",
+      "Tags": ["video conferencing", "online classes", "webinars", "collaboration"],
+      "Description": "Free unlimited meeting duration for verified educational institutions. Perfect for online classes and study groups.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/1/11/Zoom_Logo_2022.svg",
+      "Apply Link": "https://zoom.us/education"
+    },
+    {
+      "Program Name": "Visual Studio Code",
+      "Program Value": "Free forever",
+      "Tags": ["code editor", "programming", "open source", "development"],
+      "Description": "Free, open-source code editor from Microsoft with extensive plugin ecosystem. Industry standard for web development.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+      "Apply Link": "https://code.visualstudio.com/"
+    },
+    {
+      "Program Name": "Docker Student Developer Pack",
+      "Program Value": "Free Pro subscription",
+      "Tags": ["containers", "DevOps", "cloud", "development"],
+      "Description": "Free Docker Pro subscription for students including unlimited private repos and advanced collaboration features.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg",
+      "Apply Link": "https://www.docker.com/community/get-involved/developer-preview"
+    },
+    {
+      "Program Name": "Heroku Student Offer",
+      "Program Value": "Free platform credits",
+      "Tags": ["cloud hosting", "deployment", "web apps", "PaaS"],
+      "Description": "Free Hobby Dyno for students via GitHub Student Pack. Deploy web applications without credit card.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg",
+      "Apply Link": "https://www.heroku.com/github-students"
+    },
+    {
+      "Program Name": "DigitalOcean Student Credit",
+      "Program Value": "$200 in credits",
+      "Tags": ["cloud hosting", "VPS", "infrastructure", "deployment"],
+      "Description": "Get $200 in platform credit over 12 months for cloud servers, managed databases, and storage via GitHub Student Pack.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
+      "Apply Link": "https://www.digitalocean.com/github-students"
+    },
+    {
+      "Program Name": "Namecheap for Education",
+      "Program Value": "Free domain + SSL",
+      "Tags": ["domains", "hosting", "SSL", "web"],
+      "Description": "Free .me domain for one year and free SSL certificates through GitHub Student Pack.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Namecheap_Logo.png",
+      "Apply Link": "https://www.namecheap.com/github-students/"
+    },
+    {
+      "Program Name": "MongoDB for Students",
+      "Program Value": "$200 in credits",
+      "Tags": ["database", "NoSQL", "cloud", "backend"],
+      "Description": "Free MongoDB Atlas credits for cloud database hosting. Perfect for learning modern database technologies.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+      "Apply Link": "https://www.mongodb.com/students"
+    },
+    {
+      "Program Name": "Postman Student Expert",
+      "Program Value": "Free Pro features",
+      "Tags": ["API testing", "development", "collaboration", "automation"],
+      "Description": "Free Postman Student Expert certification program with access to Pro features and exclusive learning resources.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Postman_%28software%29_logo.svg",
+      "Apply Link": "https://www.postman.com/student-program/"
+    },
+    {
+      "Program Name": "Unity Student Plan",
+      "Program Value": "Free Unity Pro",
+      "Tags": ["game development", "3D", "AR/VR", "gaming"],
+      "Description": "Free Unity Pro license for students verified through GitHub Student Pack. Create professional games and 3D content.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg",
+      "Apply Link": "https://unity.com/products/unity-student"
+    },
+    {
+      "Program Name": "Unreal Engine Education",
+      "Program Value": "Free access",
+      "Tags": ["game engine", "3D", "graphics", "development"],
+      "Description": "Free access to Unreal Engine for students. Industry-leading game engine used in AAA games and film production.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/20/UE_Logo_Black_Centered.svg",
+      "Apply Link": "https://www.unrealengine.com/en-US/education"
+    },
+    {
+      "Program Name": "MATLAB Student License",
+      "Program Value": "₹2,950 (heavily discounted)",
+      "Tags": ["engineering", "mathematics", "simulation", "data analysis"],
+      "Description": "Student version of MATLAB and Simulink at discounted price. Essential for engineering and scientific computing.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+      "Apply Link": "https://in.mathworks.com/store/link/products/student/SV"
+    },
+    {
+      "Program Name": "SolidWorks Student Edition",
+      "Program Value": "₹6,500/year (discounted)",
+      "Tags": ["CAD", "3D modeling", "engineering", "design"],
+      "Description": "Professional 3D CAD software at student pricing. Includes CSWA certification prep and learning resources.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/d/d2/SolidWorks_Logo.svg",
+      "Apply Link": "https://www.solidworks.com/product/students"
+    },
+    {
+      "Program Name": "Grammarly Student Discount",
+      "Program Value": "40% off Premium",
+      "Tags": ["writing", "grammar", "productivity", "academic"],
+      "Description": "40% discount on Grammarly Premium for students. Advanced grammar checking, plagiarism detection, and writing insights.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Grammarly_Logo.svg",
+      "Apply Link": "https://www.grammarly.com/edu"
+    },
+    {
+      "Program Name": "Lucidchart Education",
+      "Program Value": "Free account upgrade",
+      "Tags": ["diagrams", "flowcharts", "collaboration", "design"],
+      "Description": "Free educational account with unlimited documents and advanced features for creating diagrams and flowcharts.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lucidchart_Logo.png",
+      "Apply Link": "https://www.lucidchart.com/pages/usecase/education"
+    },
+    {
+      "Program Name": "LastPass Student Discount",
+      "Program Value": "50% off Premium",
+      "Tags": ["security", "password manager", "privacy", "productivity"],
+      "Description": "50% discount on LastPass Premium. Secure password management across all devices with encrypted vault.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/8/83/LastPass_logo.svg",
+      "Apply Link": "https://www.lastpass.com/students"
+    },
+    {
+      "Program Name": "Prezi EDU Plus",
+      "Program Value": "Free EDU Plus license",
+      "Tags": ["presentations", "design", "education", "creativity"],
+      "Description": "Free Prezi EDU Plus license for students and teachers. Create dynamic, non-linear presentations.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Prezi_logo.svg",
+      "Apply Link": "https://prezi.com/education/"
+    },
+    {
+      "Program Name": "Sketch Student Discount",
+      "Program Value": "50% off",
+      "Tags": ["design", "UI/UX", "Mac", "prototyping"],
+      "Description": "50% education discount on Sketch for Mac. Professional design tool for creating user interfaces.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sketch_Logo.svg",
+      "Apply Link": "https://www.sketch.com/education/"
+    },
+    {
+      "Program Name": "Tower Git Client Student",
+      "Program Value": "50% discount",
+      "Tags": ["Git", "version control", "development", "productivity"],
+      "Description": "50% student discount on Tower Git client. Professional Git GUI for Mac and Windows.",
+      "Program Company Icon": "https://www.git-tower.com/assets/img/logo-tower.svg",
+      "Apply Link": "https://www.git-tower.com/students"
+    },
+    {
+      "Program Name": "Typeform Student Program",
+      "Program Value": "50% discount",
+      "Tags": ["forms", "surveys", "data collection", "research"],
+      "Description": "50% off Typeform Pro for students. Create beautiful, interactive forms and surveys for research projects.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Typeform_Logo.svg",
+      "Apply Link": "https://www.typeform.com/student-discount/"
+    },
+    {
+      "Program Name": "Airtable Student Discount",
+      "Program Value": "Free Pro plan",
+      "Tags": ["database", "spreadsheet", "collaboration", "productivity"],
+      "Description": "Free Airtable Pro plan for students. Combines spreadsheet and database functionality with powerful features.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Airtable_Logo.svg",
+      "Apply Link": "https://airtable.com/pricing"
+    },
+    {
+      "Program Name": "GitKraken Student License",
+      "Program Value": "Free Pro license",
+      "Tags": ["Git GUI", "version control", "development", "collaboration"],
+      "Description": "Free GitKraken Pro license via GitHub Student Pack. Powerful Git GUI with advanced features.",
+      "Program Company Icon": "https://www.gitkraken.com/wp-content/uploads/2021/06/gitkraken-logo-dark-hz.svg",
+      "Apply Link": "https://www.gitkraken.com/github-student-developer-pack"
+    },
+    {
+      "Program Name": "Todoist Student Discount",
+      "Program Value": "50% off Pro",
+      "Tags": ["productivity", "task management", "organization", "planning"],
+      "Description": "50% discount on Todoist Pro for students. Premium task management and productivity features.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Todoist_logo.svg",
+      "Apply Link": "https://todoist.com/education"
+    },
+    {
+      "Program Name": "Student Beans Platform",
+      "Program Value": "Free access to deals",
+      "Tags": ["discounts", "shopping", "lifestyle", "verification"],
+      "Description": "Free student verification and access to exclusive discounts from hundreds of brands worldwide.",
+      "Program Company Icon": "https://www.studentbeans.com/assets/images/sb-logo.svg",
+      "Apply Link": "https://www.studentbeans.com/in"
+    }
+  ],
+  "certifications_and_courses": [
+    {
+      "Program Name": "SWAYAM",
+      "Program Value": "Free courses + ₹1000 certificates",
+      "Tags": ["MOOCs", "government", "IIT courses", "credit transfer"],
+      "Description": "India's national MOOC platform with 13,235+ courses from IITs, IIMs, and universities. Free learning with optional certificates for ₹1000.",
+      "Program Company Icon": "https://swayam.gov.in/assets/img/logo.png",
+      "Apply Link": "https://swayam.gov.in/"
+    },
+    {
+      "Program Name": "NPTEL",
+      "Program Value": "Free courses + affordable certificates",
+      "Tags": ["engineering", "sciences", "IIT courses", "technical"],
+      "Description": "3,000+ technical courses from IITs and IISc. World's largest repository of engineering courses with free learning and proctored certification.",
+      "Program Company Icon": "https://nptel.ac.in/assets/shared/logo.png",
+      "Apply Link": "https://nptel.ac.in/"
+    },
+    {
+      "Program Name": "Google Career Certificates",
+      "Program Value": "Free via scholarships",
+      "Tags": ["IT support", "data analytics", "UX design", "project management"],
+      "Description": "Professional certificates in high-demand fields like Data Analytics, UX Design, IT Support. 3-6 month programs with job-ready skills.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "Apply Link": "https://www.coursera.org/google-career-certificates"
+    },
+    {
+      "Program Name": "AWS Training and Certification",
+      "Program Value": "Free training + discounted exams",
+      "Tags": ["cloud", "AWS", "certification", "technical"],
+      "Description": "Free digital training courses and 50% discount on certification exams for students. Covers cloud architecture, development, and operations.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+      "Apply Link": "https://aws.amazon.com/training/"
+    },
+    {
+      "Program Name": "Microsoft Learn Student Ambassador",
+      "Program Value": "Free certifications + benefits",
+      "Tags": ["Microsoft", "Azure", "certification", "leadership"],
+      "Description": "Access to free Microsoft certifications, Azure credits, Visual Studio Enterprise, and exclusive training as a Student Ambassador.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "Apply Link": "https://studentambassadors.microsoft.com/"
+    },
+    {
+      "Program Name": "Coursera for Campus",
+      "Program Value": "Free via university",
+      "Tags": ["MOOCs", "university courses", "specializations", "certificates"],
+      "Description": "Many Indian universities provide free Coursera access to students. Includes courses from top global universities and professional certificates.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg",
+      "Apply Link": "https://www.coursera.org/campus"
+    },
+    {
+      "Program Name": "LinkedIn Learning via University",
+      "Program Value": "Free with student ID",
+      "Tags": ["professional skills", "business", "creative", "technology"],
+      "Description": "Many Indian colleges provide free LinkedIn Learning access. 16,000+ courses in business, technology, and creative skills with certificates.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg",
+      "Apply Link": "https://www.linkedin.com/learning/"
+    },
+    {
+      "Program Name": "AICTE Digital Skilling",
+      "Program Value": "Free certifications",
+      "Tags": ["AI", "blockchain", "IoT", "data science", "emerging tech"],
+      "Description": "Free emerging technology certifications for 1 crore students. Covers AI, ML, blockchain, IoT, cybersecurity from 100+ corporate partners.",
+      "Program Company Icon": "https://www.aicte-india.org/sites/default/files/logo_new.png",
+      "Apply Link": "https://www.aicte-india.org/digitalskilling"
+    },
+    {
+      "Program Name": "DigiSaksham Initiative",
+      "Program Value": "Free training",
+      "Tags": ["digital skills", "JavaScript", "data visualization", "Excel"],
+      "Description": "Free digital skills training for 3 lakh youth via National Career Service portal. Covers programming, data analysis, and digital marketing.",
+      "Program Company Icon": "https://www.ncs.gov.in/_layouts/15/images/ncsp/logo.png",
+      "Apply Link": "https://www.ncs.gov.in/"
+    },
+    {
+      "Program Name": "DevTown Bootcamp",
+      "Program Value": "Free courses",
+      "Tags": ["web development", "coding", "bootcamp", "placement"],
+      "Description": "India's fastest-growing tech learning community with 60,000+ students. Free coding bootcamps with placement assistance.",
+      "Program Company Icon": "https://www.devtown.in/logo.png",
+      "Apply Link": "https://www.devtown.in/"
+    },
+    {
+      "Program Name": "IBM SkillsBuild",
+      "Program Value": "Free courses + badges",
+      "Tags": ["AI", "cybersecurity", "cloud", "data science", "IBM"],
+      "Description": "Free learning platform with 1000+ courses in emerging technologies. Earn IBM digital badges and professional certificates.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+      "Apply Link": "https://skillsbuild.org/"
+    },
+    {
+      "Program Name": "Cisco Networking Academy",
+      "Program Value": "Free courses",
+      "Tags": ["networking", "cybersecurity", "IoT", "programming", "Cisco"],
+      "Description": "Free IT courses and certifications in networking, cybersecurity, and programming. Prepare for industry-recognized Cisco certifications.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/0/08/Cisco_logo_blue_2016.svg",
+      "Apply Link": "https://www.netacad.com/"
+    },
+    {
+      "Program Name": "Oracle Academy",
+      "Program Value": "Free for students",
+      "Tags": ["database", "Java", "cloud", "Oracle", "enterprise"],
+      "Description": "Free access to Oracle curriculum, cloud credits, and certification discounts. Learn database management, Java, and cloud technologies.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+      "Apply Link": "https://academy.oracle.com/"
+    },
+    {
+      "Program Name": "DataCamp for Classrooms",
+      "Program Value": "Free 6-month access",
+      "Tags": ["data science", "Python", "R", "SQL", "machine learning"],
+      "Description": "Free 6-month access for groups of students. Learn data science, analytics, and programming with hands-on exercises.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/Datacamp.png",
+      "Apply Link": "https://www.datacamp.com/groups/classrooms"
+    },
+    {
+      "Program Name": "FreeCodeCamp",
+      "Program Value": "100% free",
+      "Tags": ["web development", "JavaScript", "Python", "certifications"],
+      "Description": "Completely free coding education with 10+ certifications. Learn web development, data science, and machine learning.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.svg",
+      "Apply Link": "https://www.freecodecamp.org/"
+    },
+    {
+      "Program Name": "Codecademy Student Discount",
+      "Program Value": "35% off Pro",
+      "Tags": ["coding", "programming", "web development", "interactive"],
+      "Description": "35% student discount on Codecademy Pro. Interactive coding courses with real-world projects and certificates.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Codecademy.svg",
+      "Apply Link": "https://www.codecademy.com/student-center"
+    },
+    {
+      "Program Name": "Udacity Scholarships",
+      "Program Value": "Free Nanodegrees",
+      "Tags": ["AI", "data science", "programming", "tech careers"],
+      "Description": "Various scholarship programs offering free Nanodegree programs in AI, data science, and programming.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Udacity_logo.svg",
+      "Apply Link": "https://www.udacity.com/scholarships"
+    },
+    {
+      "Program Name": "edX Free Courses",
+      "Program Value": "Free audit + paid certificates",
+      "Tags": ["MOOCs", "university courses", "professional", "academic"],
+      "Description": "Audit courses for free from Harvard, MIT, and other top universities. Pay only for verified certificates.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/c/cd/EdX_newer_logo.svg",
+      "Apply Link": "https://www.edx.org/"
+    },
+    {
+      "Program Name": "Khan Academy",
+      "Program Value": "100% free",
+      "Tags": ["education", "math", "science", "test prep"],
+      "Description": "Completely free educational platform covering K-12 to college level subjects including test preparation.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Khan_Academy_logo_%282018%29.svg",
+      "Apply Link": "https://www.khanacademy.org/"
+    },
+    {
+      "Program Name": "Pluralsight Free April",
+      "Program Value": "Free month annually",
+      "Tags": ["tech skills", "programming", "IT", "cloud"],
+      "Description": "Free access to entire platform during April each year. 7,000+ courses in software development, IT ops, and creative.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pluralsight_logo.svg",
+      "Apply Link": "https://www.pluralsight.com/free"
+    },
+    {
+      "Program Name": "LetsUpgrade",
+      "Program Value": "Free courses + certificates",
+      "Tags": ["programming", "bootcamp", "community", "placement"],
+      "Description": "Free programming courses and certifications with physical college programs and placement assistance.",
+      "Program Company Icon": "https://letsupgrade.in/assets/logo.png",
+      "Apply Link": "https://letsupgrade.in/"
+    },
+    {
+      "Program Name": "CBitss Coding Bootcamp",
+      "Program Value": "Free with placement",
+      "Tags": ["coding", "bootcamp", "placement", "mentorship"],
+      "Description": "Free coding bootcamp with placement assistance and 1:1 mentorship for Indian students.",
+      "Program Company Icon": "https://cbitss.com/logo.png",
+      "Apply Link": "https://cbitss.com/"
+    },
+    {
+      "Program Name": "Google Cloud Skills Boost",
+      "Program Value": "Free credits + labs",
+      "Tags": ["cloud", "Google Cloud", "hands-on", "certification prep"],
+      "Description": "Free credits and hands-on labs for Google Cloud. Prepare for professional cloud certifications.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg",
+      "Apply Link": "https://www.cloudskillsboost.google/"
+    },
+    {
+      "Program Name": "Meta Blueprint",
+      "Program Value": "Free courses",
+      "Tags": ["digital marketing", "social media", "advertising", "Meta"],
+      "Description": "Free digital marketing courses and certifications from Meta covering Facebook, Instagram, and WhatsApp marketing.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+      "Apply Link": "https://www.facebook.com/business/learn"
+    },
+    {
+      "Program Name": "HubSpot Academy",
+      "Program Value": "Free certifications",
+      "Tags": ["marketing", "sales", "CRM", "business"],
+      "Description": "Free certifications in inbound marketing, content marketing, social media, and sales from HubSpot.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/3/3f/HubSpot_Logo.svg",
+      "Apply Link": "https://academy.hubspot.com/"
+    },
+    {
+      "Program Name": "Salesforce Trailhead",
+      "Program Value": "Free learning + badges",
+      "Tags": ["CRM", "Salesforce", "cloud", "business tech"],
+      "Description": "Free learning platform for Salesforce skills with gamified badges and super badges. Prepare for certifications.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg",
+      "Apply Link": "https://trailhead.salesforce.com/"
+    },
+    {
+      "Program Name": "Google Analytics Academy",
+      "Program Value": "Free certification",
+      "Tags": ["analytics", "digital marketing", "data", "Google"],
+      "Description": "Free Google Analytics courses and certification. Learn web analytics and data-driven marketing.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "Apply Link": "https://analytics.google.com/analytics/academy/"
+    },
+    {
+      "Program Name": "TensorFlow Certificate Program",
+      "Program Value": "$100 exam (discounted)",
+      "Tags": ["AI", "machine learning", "TensorFlow", "deep learning"],
+      "Description": "TensorFlow Developer Certificate program with free learning resources. Exam fee required for certification.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg",
+      "Apply Link": "https://www.tensorflow.org/certificate"
+    },
+    {
+      "Program Name": "Kaggle Learn",
+      "Program Value": "Free micro-courses",
+      "Tags": ["data science", "machine learning", "Python", "competitions"],
+      "Description": "Free micro-courses in Python, machine learning, and data visualization. Participate in competitions for prizes.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png",
+      "Apply Link": "https://www.kaggle.com/learn"
+    },
+    {
+      "Program Name": "MongoDB University",
+      "Program Value": "Free courses",
+      "Tags": ["database", "NoSQL", "MongoDB", "backend"],
+      "Description": "Free MongoDB courses with certificates. Learn NoSQL database design and administration.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+      "Apply Link": "https://university.mongodb.com/"
+    }
+  ],
+  "scholarships_and_fellowships": [
+    {
+      "Program Name": "PM-USP Scholarship",
+      "Program Value": "₹12,000-20,000 per annum",
+      "Tags": ["scholarship", "government", "merit", "undergraduate"],
+      "Description": "82,000 annual scholarships for students above 80th percentile in Class XII with family income under ₹8 lakhs. ₹12,000/year for first 3 years, ₹20,000 for 4th and 5th year.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
+      "Apply Link": "https://scholarships.gov.in/"
+    },
+    {
+      "Program Name": "National Means-Cum-Merit Scholarship",
+      "Program Value": "₹12,000 per annum",
+      "Tags": ["scholarship", "government", "school", "merit"],
+      "Description": "1,00,000 fresh scholarships annually for students with parental income up to ₹1.5 lakh. Covers Classes IX-XII.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
+      "Apply Link": "https://scholarships.gov.in/"
+    },
+    {
+      "Program Name": "J&K Special Scholarship",
+      "Program Value": "Up to ₹3 lakhs + ₹1 lakh allowance",
+      "Tags": ["scholarship", "J&K", "government", "special"],
+      "Description": "5,000 scholarships for J&K students. Tuition: ₹30,000 (general), ₹1.25 lakhs (engineering), ₹3 lakhs (medical) plus ₹1 lakh maintenance allowance.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
+      "Apply Link": "https://scholarships.gov.in/"
+    },
+    {
+      "Program Name": "Indira Gandhi Single Girl Child Scholarship",
+      "Program Value": "₹36,200 per annum",
+      "Tags": ["scholarship", "UGC", "women", "postgraduate"],
+      "Description": "For single girl child below 30 years pursuing PG. ₹36,200/year for 2 years from UGC.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/4b/University_Grants_Commission_India_logo.png",
+      "Apply Link": "https://scholarships.gov.in/"
+    },
+    {
+      "Program Name": "UGC Merit Scholarship for University Rank Holders",
+      "Program Value": "₹3,100 per month",
+      "Tags": ["scholarship", "UGC", "merit", "postgraduate"],
+      "Description": "For first/second rank holders at university level. ₹3,100/month for 2 years of PG studies.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/4b/University_Grants_Commission_India_logo.png",
+      "Apply Link": "https://scholarships.gov.in/"
+    },
+    {
+      "Program Name": "Ishan Uday Special Scholarship",
+      "Program Value": "₹5,400-7,800 per month",
+      "Tags": ["scholarship", "northeast", "UGC", "special"],
+      "Description": "10,000 scholarships for North-East students. ₹5,400/month for general courses, ₹7,800/month for technical/medical.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/4b/University_Grants_Commission_India_logo.png",
+      "Apply Link": "https://scholarships.gov.in/"
+    },
+    {
+      "Program Name": "INSPIRE Fellowship",
+      "Program Value": "₹80,000 per annum",
+      "Tags": ["fellowship", "DST", "research", "science"],
+      "Description": "Department of Science & Technology fellowship for students pursuing natural and basic sciences. ₹80,000/year scholarship.",
+      "Program Company Icon": "https://dst.gov.in/sites/default/files/dst-logo.png",
+      "Apply Link": "http://www.inspire-dst.gov.in/"
+    },
+    {
+      "Program Name": "CSIR-JRF Fellowship",
+      "Program Value": "₹31,000 per month",
+      "Tags": ["fellowship", "research", "CSIR", "science"],
+      "Description": "Junior Research Fellowship from CSIR. ₹31,000/month for first 2 years, ₹35,000/month for next 3 years.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/3/36/Council_of_Scientific_and_Industrial_Research_logo.png",
+      "Apply Link": "https://csirnet.nta.nic.in/"
+    },
+    {
+      "Program Name": "ICMR-JRF Fellowship",
+      "Program Value": "₹31,000 per month",
+      "Tags": ["fellowship", "medical research", "ICMR", "biomedical"],
+      "Description": "Medical research fellowship from ICMR for biomedical sciences. ₹31,000/month stipend plus HRA.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/6/6b/Indian_Council_of_Medical_Research_Logo.png",
+      "Apply Link": "https://www.icmr.nic.in/"
+    },
+    {
+      "Program Name": "DBT-JRF Fellowship",
+      "Program Value": "₹31,000 per month",
+      "Tags": ["fellowship", "biotechnology", "DBT", "research"],
+      "Description": "Department of Biotechnology fellowship for biotechnology research. ₹31,000/month for JRF, ₹35,000 for SRF.",
+      "Program Company Icon": "https://dbtindia.gov.in/themes/custom/vibrant/logo.png",
+      "Apply Link": "https://dbtindia.gov.in/"
+    },
+    {
+      "Program Name": "GATE Scholarship",
+      "Program Value": "₹12,400 per month",
+      "Tags": ["scholarship", "GATE", "M.Tech", "engineering"],
+      "Description": "Monthly stipend for GATE qualified students pursuing M.Tech/ME at IITs, NITs, and other institutions.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/5/52/Indian_Institute_of_Technology_Logo.svg",
+      "Apply Link": "https://gate.iitb.ac.in/"
+    },
+    {
+      "Program Name": "Kishore Vaigyanik Protsahan Yojana",
+      "Program Value": "₹5,000-7,000 per month",
+      "Tags": ["fellowship", "science", "research", "KVPY"],
+      "Description": "Fellowship for students pursuing basic sciences. ₹5,000/month during B.Sc., ₹7,000/month during M.Sc.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/42/Indian_Institute_of_Science_Logo.svg",
+      "Apply Link": "http://kvpy.iisc.ernet.in/"
+    },
+    {
+      "Program Name": "Ramanujan Fellowship",
+      "Program Value": "₹1,35,000 per month",
+      "Tags": ["fellowship", "research", "scientists", "returnee"],
+      "Description": "For brilliant scientists returning to India. ₹1,35,000/month consolidated plus ₹7 lakh/year research grant.",
+      "Program Company Icon": "https://serb.gov.in/assets/images/logo.png",
+      "Apply Link": "https://www.serbonline.in/"
+    },
+    {
+      "Program Name": "Women Scientist Scheme-A",
+      "Program Value": "₹55,000 per month",
+      "Tags": ["fellowship", "women", "research", "DST"],
+      "Description": "DST fellowship for women scientists. ₹55,000/month for PhD holders pursuing research.",
+      "Program Company Icon": "https://dst.gov.in/sites/default/files/dst-logo.png",
+      "Apply Link": "https://online-wosa.gov.in/"
+    },
+    {
+      "Program Name": "AICTE Pragati Scholarship",
+      "Program Value": "₹50,000 per annum",
+      "Tags": ["scholarship", "women", "technical", "AICTE"],
+      "Description": "For girl students in technical education. ₹50,000/year or tuition fee, whichever is less.",
+      "Program Company Icon": "https://www.aicte-india.org/sites/default/files/logo_new.png",
+      "Apply Link": "https://scholarships.gov.in/"
+    },
+    {
+      "Program Name": "AICTE Saksham Scholarship",
+      "Program Value": "₹50,000 per annum",
+      "Tags": ["scholarship", "disabled", "technical", "AICTE"],
+      "Description": "For differently-abled students in technical education. ₹50,000/year support.",
+      "Program Company Icon": "https://www.aicte-india.org/sites/default/files/logo_new.png",
+      "Apply Link": "https://scholarships.gov.in/"
+    },
+    {
+      "Program Name": "Google Generation Scholarship",
+      "Program Value": "$1,000 USD",
+      "Tags": ["scholarship", "tech", "women", "Google"],
+      "Description": "For women studying computer science. $1,000 scholarship plus retreat invitation and mentorship.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "Apply Link": "https://buildyourfuture.withgoogle.com/scholarships"
+    },
+    {
+      "Program Name": "Adobe Research Women-in-Technology",
+      "Program Value": "$10,000 USD",
+      "Tags": ["scholarship", "women", "tech", "Adobe"],
+      "Description": "For female students in computer science. $10,000 award plus Adobe Research mentorship and internship.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.svg",
+      "Apply Link": "https://research.adobe.com/scholarship/"
+    },
+    {
+      "Program Name": "Microsoft Engage Mentorship",
+      "Program Value": "Mentorship + Internship opportunity",
+      "Tags": ["mentorship", "Microsoft", "internship", "tech"],
+      "Description": "Mentorship program for engineering students with project-based learning and internship opportunities at Microsoft.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "Apply Link": "https://microsoft.acehacker.com/engage/"
+    },
+    {
+      "Program Name": "Reliance Foundation Scholarship",
+      "Program Value": "Up to ₹2 lakhs",
+      "Tags": ["scholarship", "merit", "need-based", "Reliance"],
+      "Description": "Merit-cum-means scholarship covering up to ₹2 lakhs for undergraduate students across India.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/9/99/Reliance_Foundation_Logo.jpg",
+      "Apply Link": "https://reliancefoundation.org/scholarships"
+    },
+    {
+      "Program Name": "Tata Scholarship Cornell University",
+      "Program Value": "$25,000 per year",
+      "Tags": ["scholarship", "international", "Tata", "Cornell"],
+      "Description": "For Indian students at Cornell University. Covers approximately $25,000 per year based on need.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tata_logo.svg",
+      "Apply Link": "https://admissions.cornell.edu/financial-aid/types-aid/scholarships/tata-scholarship"
+    },
+    {
+      "Program Name": "Narotam Sekhsaria Scholarship",
+      "Program Value": "Up to ₹2 lakhs per annum",
+      "Tags": ["scholarship", "postgraduate", "merit", "loan"],
+      "Description": "Interest-free loan scholarship for PG studies. Up to ₹2 lakhs/year for Indian students and higher for abroad.",
+      "Program Company Icon": "https://nsfoundation.co.in/wp-content/uploads/2019/09/logo.png",
+      "Apply Link": "https://pg.nsfoundation.co.in/"
+    },
+    {
+      "Program Name": "KC Mahindra Scholarship",
+      "Program Value": "Up to ₹4 lakhs",
+      "Tags": ["scholarship", "postgraduate", "abroad", "Mahindra"],
+      "Description": "For students pursuing PG studies abroad. Interest-free loan scholarship up to ₹4 lakhs.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Mahindra_Rise_New_Logo.png",
+      "Apply Link": "https://kcmet.org/what-we-do-Scholarship-Grants.aspx"
+    },
+    {
+      "Program Name": "JN Tata Endowment Loan Scholarship",
+      "Program Value": "Up to ₹10 lakhs",
+      "Tags": ["scholarship", "loan", "abroad", "Tata"],
+      "Description": "Low-interest loan scholarship for higher studies abroad. Up to ₹10 lakhs with partial gift component.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tata_logo.svg",
+      "Apply Link": "https://jntataendowment.org/"
+    },
+    {
+      "Program Name": "Aga Khan Foundation Scholarship",
+      "Program Value": "50% grant + 50% loan",
+      "Tags": ["scholarship", "international", "postgraduate", "development"],
+      "Description": "For outstanding students from developing countries. 50% grant and 50% loan basis for PG studies.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aga_Khan_Foundation_logo.svg",
+      "Apply Link": "https://www.akdn.org/akf-scholarships"
+    },
+    {
+      "Program Name": "Rhodes Scholarship India",
+      "Program Value": "Full coverage at Oxford",
+      "Tags": ["scholarship", "Oxford", "prestigious", "full funding"],
+      "Description": "Fully funded scholarship to University of Oxford covering tuition, living expenses, and airfare for 2-3 years.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/7/7e/Rhodes_Scholarship.png",
+      "Apply Link": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/"
+    },
+    {
+      "Program Name": "Chevening Scholarship",
+      "Program Value": "Full UK Masters funding",
+      "Tags": ["scholarship", "UK", "masters", "leadership"],
+      "Description": "UK government scholarship for 1-year Masters. Covers tuition, living expenses, and travel costs.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/a/ae/Chevening_Scholarship_logo.png",
+      "Apply Link": "https://www.chevening.org/apply/"
+    },
+    {
+      "Program Name": "Commonwealth Scholarship",
+      "Program Value": "Full funding for UK studies",
+      "Tags": ["scholarship", "UK", "Commonwealth", "postgraduate"],
+      "Description": "For Masters and PhD in UK universities. Covers airfare, tuition, and living expenses.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/46/Commonwealth_of_Nations_Logo.svg",
+      "Apply Link": "http://cscuk.dfid.gov.uk/apply/"
+    },
+    {
+      "Program Name": "Fulbright-Nehru Scholarship",
+      "Program Value": "Full US Masters/PhD funding",
+      "Tags": ["scholarship", "USA", "Fulbright", "research"],
+      "Description": "For Masters, PhD, and research in the US. Covers tuition, living expenses, airfare, and health insurance.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Seal_of_the_United_States_Department_of_State.svg",
+      "Apply Link": "https://www.usief.org.in/Fellowships.aspx"
+    },
+    {
+      "Program Name": "Erasmus Mundus Joint Masters",
+      "Program Value": "€1,400/month + full tuition",
+      "Tags": ["scholarship", "Europe", "masters", "international"],
+      "Description": "EU-funded scholarship for joint Masters programs. €1,400/month stipend plus full tuition coverage.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
+      "Apply Link": "https://ec.europa.eu/programmes/erasmus-plus/opportunities/individuals/students/erasmus-mundus-joint-masters-scholarships_en"
+    }
+  ],
+  "internships_and_mentorship": [
+    {
+      "Program Name": "Infosys InStep",
+      "Program Value": "₹25,000-50,000/month stipend",
+      "Tags": ["internship", "Infosys", "global", "tech"],
+      "Description": "World's best internship program by Vault. 8-24 weeks with accommodation, travel, and health insurance covered.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+      "Apply Link": "https://www.infosys.com/instep.html"
+    },
+    {
+      "Program Name": "TCS Research Internship",
+      "Program Value": "Paid internship",
+      "Tags": ["internship", "research", "TCS", "tech"],
+      "Description": "6-18 week research internships at TCS labs working on industry-scale problems with world-class researchers.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/b/b1/Tata_Consultancy_Services_Logo.svg",
+      "Apply Link": "https://www.tcs.com/careers/india/internship"
+    },
+    {
+      "Program Name": "Google Summer of Code",
+      "Program Value": "$1,500-6,600 stipend",
+      "Tags": ["internship", "open source", "Google", "global"],
+      "Description": "Work on open source projects with mentoring. Stipend based on location and project duration.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "Apply Link": "https://summerofcode.withgoogle.com/"
+    },
+    {
+      "Program Name": "Microsoft Internship India",
+      "Program Value": "₹80,000/month",
+      "Tags": ["internship", "Microsoft", "tech", "software"],
+      "Description": "Summer internships at Microsoft India with competitive stipend and potential full-time conversion.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "Apply Link": "https://careers.microsoft.com/students/"
+    },
+    {
+      "Program Name": "Amazon SDE Internship",
+      "Program Value": "₹60,000/month",
+      "Tags": ["internship", "Amazon", "software", "tech"],
+      "Description": "Software development internships at Amazon India with mentorship and real project experience.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "Apply Link": "https://www.amazon.jobs/en/teams/internships-for-students"
+    },
+    {
+      "Program Name": "Flipkart GRiD",
+      "Program Value": "Prizes + Internship offers",
+      "Tags": ["hackathon", "Flipkart", "competition", "internship"],
+      "Description": "National-level hackathon with cash prizes up to ₹1.5 lakhs and internship opportunities at Flipkart.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/7/7a/Flipkart_logo.svg",
+      "Apply Link": "https://dare2compete.com/o/flipkart-grid-50-flipkart-264742"
+    },
+    {
+      "Program Name": "Mentor Together",
+      "Program Value": "Free mentorship",
+      "Tags": ["mentorship", "career", "professional", "nonprofit"],
+      "Description": "Award-winning mentorship program connecting students with industry professionals across India.",
+      "Program Company Icon": "https://mentortogether.org/wp-content/uploads/2020/06/logo.png",
+      "Apply Link": "https://mentortogether.org/"
+    },
+    {
+      "Program Name": "ADPList",
+      "Program Value": "Free global mentorship",
+      "Tags": ["mentorship", "global", "tech", "design"],
+      "Description": "Free mentorship from 20,000+ mentors globally in tech, design, and product management.",
+      "Program Company Icon": "https://adplist.org/img/adplist-logo.svg",
+      "Apply Link": "https://adplist.org/"
+    },
+    {
+      "Program Name": "LinkedIn Career Advice",
+      "Program Value": "Free mentorship matching",
+      "Tags": ["mentorship", "career", "LinkedIn", "professional"],
+      "Description": "Get matched with professionals in your field for career advice and mentorship through LinkedIn.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+      "Apply Link": "https://www.linkedin.com/advice/"
+    },
+    {
+      "Program Name": "Smart India Hackathon",
+      "Program Value": "₹1 lakh prize + opportunities",
+      "Tags": ["hackathon", "government", "innovation", "competition"],
+      "Description": "World's biggest hackathon by Government of India. Cash prizes and implementation opportunities.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
+      "Apply Link": "https://www.sih.gov.in/"
+    },
+    {
+      "Program Name": "AICTE Internship Portal",
+      "Program Value": "10 lakh internships by 2025",
+      "Tags": ["internship", "AICTE", "portal", "government"],
+      "Description": "National Internship Portal targeting 1 crore internships by 2025 across industries for students.",
+      "Program Company Icon": "https://www.aicte-india.org/sites/default/files/logo_new.png",
+      "Apply Link": "https://internship.aicte-india.org/"
+    },
+    {
+      "Program Name": "Khorana Programme",
+      "Program Value": "$2,500 stipend",
+      "Tags": ["internship", "research", "USA", "biotech"],
+      "Description": "Indo-US research internship in biotechnology and biomedical sciences at top US universities.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/42/Indian_Institute_of_Science_Logo.svg",
+      "Apply Link": "https://www.iusstf.org/program/khorana-program-for-scholars"
+    },
+    {
+      "Program Name": "DAAD WISE Scholarship",
+      "Program Value": "€650-750/month",
+      "Tags": ["internship", "Germany", "research", "STEM"],
+      "Description": "2-3 month research internships at German universities and research institutes for STEM students.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/5c/DAAD_Logo.svg",
+      "Apply Link": "https://www.daad.in/en/"
+    },
+    {
+      "Program Name": "Mitacs Globalink",
+      "Program Value": "CAD $6,000-7,000",
+      "Tags": ["internship", "Canada", "research", "international"],
+      "Description": "12-week research internships at Canadian universities with stipend, travel, and accommodation.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/20/Mitacs_logo.svg",
+      "Apply Link": "https://www.mitacs.ca/en/programs/globalink/globalink-research-internship"
+    },
+    {
+      "Program Name": "SURGE IIT Kanpur",
+      "Program Value": "₹12,500 stipend",
+      "Tags": ["internship", "research", "IIT", "summer"],
+      "Description": "8-week summer research program at IIT Kanpur with stipend and certificate.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/a/a3/IIT_Kanpur_Logo.svg",
+      "Apply Link": "http://surge.iitk.ac.in/"
+    },
+    {
+      "Program Name": "SPARK IIT Roorkee",
+      "Program Value": "₹2,500/week",
+      "Tags": ["internship", "research", "IIT", "summer"],
+      "Description": "Summer research internship at IIT Roorkee with weekly stipend and accommodation.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/9/95/IIT_Roorkee_Logo.png",
+      "Apply Link": "https://spark.iitr.ac.in/"
+    },
+    {
+      "Program Name": "IAS SRFP",
+      "Program Value": "₹12,000 stipend",
+      "Tags": ["fellowship", "research", "science", "summer"],
+      "Description": "Indian Academy of Sciences Summer Research Fellowship with stipend and travel support.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/42/Indian_Institute_of_Science_Logo.svg",
+      "Apply Link": "https://www.ias.ac.in/fellowship/"
+    },
+    {
+      "Program Name": "Charpak Lab Scholarship",
+      "Program Value": "€560/month + benefits",
+      "Tags": ["internship", "France", "research", "lab"],
+      "Description": "2-5 month lab internships in France with stipend, visa support, and health insurance.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
+      "Apply Link": "https://www.inde.campusfrance.org/charpak-lab-scholarship"
+    },
+    {
+      "Program Name": "NASSCOM 10,000 Startups",
+      "Program Value": "Incubation support",
+      "Tags": ["startup", "incubation", "mentorship", "NASSCOM"],
+      "Description": "Startup incubation with funding access, mentorship, and global immersion programs.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/a/a8/NASSCOM_Logo.svg",
+      "Apply Link": "https://10000startups.com/"
+    },
+    {
+      "Program Name": "Startup India Hub",
+      "Program Value": "Free resources + support",
+      "Tags": ["startup", "government", "entrepreneurship", "resources"],
+      "Description": "Government platform connecting startups with incubators, mentors, funds, and other resources.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
+      "Apply Link": "https://www.startupindia.gov.in/"
+    }
+  ]
+}
