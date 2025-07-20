@@ -28,6 +28,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/fonts/helvetica-bold.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

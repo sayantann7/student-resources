@@ -51,7 +51,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <motion.div 
-        className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-start items-center text-white relative bg-[url('/bg.png')] pt-[190px]"
+        className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-start items-center text-white relative bg-[url('/bg.png')] pt-[140px]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -81,7 +81,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            Curated free tools for <span style={{ fontFamily: 'The Seasons' }}>Students, Dreamers, and Makers</span>. In a world of noise, cut the noise and build with clarity.
+            Curated free tools for <span style={{ fontFamily: 'The Seasons', fontWeight: 700 }}>Students, Dreamers, and Makers</span>. In a world of noise, cut the noise and build with clarity.
           </motion.p>
           
           <motion.button 
@@ -154,7 +154,7 @@ export default function Home() {
               className="text-xl text-gray-600 max-w-2xl mx-auto"
               style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
             >
-              Discover thousands of free tools, courses, and opportunities designed specifically for students
+              Discover 100+ of free tools, courses, and opportunities designed specifically for students
             </p>
           </motion.div>
 
@@ -290,7 +290,7 @@ export default function Home() {
                   {/* Program Name */}
                   <h3 
                     className="text-xl font-semibold text-gray-900 mb-2"
-                    style={{ fontFamily: 'The Seasons, serif', fontWeight: 700 }}
+                    style={{ fontFamily: 'Helvetica, serif', fontWeight: 700 }}
                   >
                     {resource["Program Name"]}
                   </h3>
