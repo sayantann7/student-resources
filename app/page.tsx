@@ -1,28 +1,46 @@
 
 
+'use client';
+
+import { motion } from 'framer-motion';
+
 export default function Home() {
   return (
-    <div 
+    <motion.div 
       className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-start items-center text-white relative bg-[url('/bg.png')] pt-[190px]"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
     >
       
       {/* Hero content */}
-      <div className="relative z-10 text-center px-4 max-w-7xl">
-        <h1 
+      <motion.div 
+        className="relative z-10 text-center px-4 max-w-7xl"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
+      >
+        <motion.h1 
           className="text-5xl md:text-6xl mb-6 leading-tight"
           style={{ fontFamily: 'The Seasons, serif' }}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
         >
           Free Tools for Students
-        </h1>
+        </motion.h1>
         
-        <p 
+        <motion.p 
           className="text-lg md:text-xl mb-8 max-w-xl mx-auto leading-relaxed"
           style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.7 }}
         >
-          Curated free tools for <span style={{ fontFamily: 'The Seasons'}}>Students, Dreamers, and Makers</span>. In a world of noise, cut the noise and build with clarity.
-        </p>
+          Curated free tools for <span style={{ fontFamily: 'The Seasons' }}>Students, Dreamers, and Makers</span>. In a world of noise, cut the noise and build with clarity.
+        </motion.p>
         
-        <button 
+        <motion.button 
           className="relative px-8 py-2 pt-3 rounded-full text-lg font-medium transition-all duration-300 overflow-hidden text-white hover:scale-105"
           style={{ 
             fontFamily: 'Helvetica, Arial, sans-serif',
@@ -37,6 +55,11 @@ export default function Home() {
               inset 0 0 4px 2px rgba(255, 255, 255, 0.2)
             `
           }}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
+          whileHover={{ scale: 1.05, y: -2 }}
+          whileTap={{ scale: 0.95 }}
         >
           <span className="relative z-10">Get Started</span>
           <div 
@@ -51,8 +74,8 @@ export default function Home() {
               background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.8), transparent, rgba(255, 255, 255, 0.3))'
             }}
           />
-        </button>
-      </div>
-    </div>
+        </motion.button>
+      </motion.div>
+    </motion.div>
   );
 }
