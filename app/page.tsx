@@ -92,7 +92,7 @@ export default function Home() {
           </motion.p>
           
           <motion.button 
-            className="relative px-8 py-2 pt-3 rounded-full text-lg font-medium transition-all duration-300 overflow-hidden text-white hover:scale-105"
+            className="relative px-8 py-2 pt-3 rounded-full text-[16px] font-medium transition-all duration-300 overflow-hidden text-white hover:scale-105 mt-3"
             style={{ 
               fontFamily: 'Helvetica, Arial, sans-serif',
               background: 'rgba(255, 255, 255, 0.1)',
