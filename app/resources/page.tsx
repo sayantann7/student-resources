@@ -464,7 +464,7 @@ export default function ResourcesPage() {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                       >
-                        Visit Resource
+                        Claim Now
                         <div 
                           className="absolute top-0 left-0 right-0 h-px"
                           style={{

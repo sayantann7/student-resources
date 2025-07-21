@@ -9,36 +9,14 @@ import { useState, useEffect } from 'react';
 export default function Home() {
   const words = ['Students', 'Dreamers', 'Makers'];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [currentText, setCurrentText] = useState('');
-  const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
-    const typeSpeed = isDeleting ? 50 : 100;
-    const word = words[currentWordIndex];
+    const interval = setInterval(() => {
+      setCurrentWordIndex((prev) => (prev + 1) % words.length);
+    }, 3000); // Change word every 3 seconds
 
-    const timer = setTimeout(() => {
-      if (!isDeleting) {
-        // Typing
-        if (currentText.length < word.length) {
-          setCurrentText(word.substring(0, currentText.length + 1));
-        } else {
-          // Finished typing, wait then start deleting
-          setTimeout(() => setIsDeleting(true), 2000);
-        }
-      } else {
-        // Deleting
-        if (currentText.length > 0) {
-          setCurrentText(word.substring(0, currentText.length - 1));
-        } else {
-          // Finished deleting, move to next word
-          setIsDeleting(false);
-          setCurrentWordIndex((prev) => (prev + 1) % words.length);
-        }
-      }
-    }, typeSpeed);
-
-    return () => clearTimeout(timer);
-  }, [currentText, isDeleting, currentWordIndex, words]);
+    return () => clearInterval(interval);
+  }, [words.length]);
 
   return (
     <div className="min-h-screen">
@@ -91,14 +69,36 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.7 }}
           >
             Curated free tools for{' '}
-            <span 
-              className="inline-block md:w-[94px] w-[86px] text-left"
-              style={{ fontFamily: 'The Seasons', fontWeight: 700 }}
-            >
-              {currentText}
-              <span className="animate-pulse">|</span>
+            <span className="relative inline-block mr-3">
+              {words.map((word, index) => (
+                <motion.span
+                  key={word}
+                  className="absolute top-0 left-0 inline-block bg-gradient-to-r from-white via-blue-200 to-white bg-clip-text text-transparent"
+                  style={{ 
+                    fontFamily: 'The Seasons', 
+                    fontWeight: 700,
+                    minWidth: '95px'
+                  }}
+                  initial={{ opacity: 0, y: 20, scale: 0.8 }}
+                  animate={{ 
+                    opacity: currentWordIndex === index ? 1 : 0,
+                    y: currentWordIndex === index ? 0 : 20,
+                    scale: currentWordIndex === index ? 1 : 0.8
+                  }}
+                  transition={{ 
+                    duration: 0.8,
+                    ease: "easeInOut"
+                  }}
+                >
+                  {word}
+                </motion.span>
+              ))}
+              {/* Spacer to maintain layout */}
+              <span className="invisible" style={{ fontFamily: 'The Seasons', fontWeight: 700 }}>
+                Students
+              </span>
             </span>
-             In a world of noise, cut the noise and build with clarity.
+            {' '}In a world of noise, cut the noise and build with clarity.
           </motion.p>
           
           <motion.button 
@@ -124,7 +124,7 @@ export default function Home() {
           >
             <Link href="/resources" className="relative z-10 flex items-center justify-center">
               <span>Unlock Your Benefits</span>
-              <img src="/arrow.png" alt="Arrow" className="ml-2 w-10 h-10 mb-1" />
+              <img src="/arrow.png" alt="Arrow" className="ml-2 w-6 h-6 mb-1" />
             </Link>
             <div 
               className="absolute top-0 left-0 right-0 h-px"
