@@ -27,18 +27,8 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        {/* Video Background */}
-        <video 
-          className="absolute top-0 left-0 w-full h-full object-cover z-0"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="/bg-video.mp4" type="video/mp4" />
-          {/* Fallback for browsers that don't support video */}
-          <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat bg-[url('/bg.png')]" />
-        </video>
+        {/* Background Image */}
+        <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat bg-[url('/bg.png')] z-0" />
         
         {/* Dark overlay for better text readability */}
         <div className="absolute top-0 left-0 w-full h-full bg-black/20 z-1" />
