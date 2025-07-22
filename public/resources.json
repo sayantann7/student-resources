@@ -1,6 +1,22 @@
 {
   "tools_and_software": [
     {
+      "Program Name": "Google Gemini Pro",
+      "Program Value": "Free 1 Year access",
+      "Tags": ["ai", "chatbot", "google", "gemini", "cl"],
+      "Description": "Get unlimited homework help, revise for exams and perfect your writing with our best AI model. With Google AI Pro, your free upgrade includes access to Veo 3 Fast, Deep Research, NotebookLM and 2 TB free storage.",
+      "Program Company Icon": "/google.png",
+      "Apply Link": "https://gemini.google/students/?hl=en-IN"
+    },
+    {
+      "Program Name": "Perplexity Pro with Airtel",
+      "Program Value": "Free 1 Year access",
+      "Tags": ["ai", "chatbot", "google", "gemini", "cl"],
+      "Description": "Airtel is partnering with Perplexity to bring the power of AI to every Airtel customer.  Now get fast, accurate answers with reliable citations in real time.",
+      "Program Company Icon": "/perplexity.png",
+      "Apply Link": "https://www.airtel.in/perplexity-pro/"
+    },
+    {
       "Program Name": "Microsoft Office 365 Education",
       "Program Value": "Free lifetime access",
       "Tags": ["productivity", "office", "documents", "email", "cloud storage"],
