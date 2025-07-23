@@ -67,3 +67,19 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* Gradient animation for Claim Now button */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  33% {
+    background-position: 100% 50%;
+  }
+  66% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

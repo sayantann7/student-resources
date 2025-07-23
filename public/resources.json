@@ -17,6 +17,86 @@
       "Apply Link": "https://www.airtel.in/perplexity-pro/"
     },
     {
+      "Program Name": "ChatGPT Plus Student",
+      "Program Value": "2 months free",
+      "Tags": ["ai", "chatbot", "openai", "gpt-4"],
+      "Description": "2 months free ChatGPT Plus for students in US/Canada. Access to GPT-4, DALL-E, and advanced data analysis.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+      "Apply Link": "https://openai.com/chatgpt/pricing"
+    },
+    {
+      "Program Name": "Microsoft Designer",
+      "Program Value": "Free unlimited access",
+      "Tags": ["ai", "design", "image generation", "DALL-E"],
+      "Description": "Unlimited free DALL-E 3 access without any student verification required. Create professional designs with AI.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "Apply Link": "https://designer.microsoft.com/"
+    },
+    {
+      "Program Name": "HyperWrite Student",
+      "Program Value": "50% discount",
+      "Tags": ["ai", "writing", "productivity", "assistant"],
+      "Description": "50% student discount on AI writing assistant. Advanced writing help, research assistance, and content generation.",
+      "Program Company Icon": "/hyperwriter.png",
+      "Apply Link": "https://hyperwrite.ai/pricing"
+    },
+    {
+      "Program Name": "Julius AI Academic",
+      "Program Value": "50% discount",
+      "Tags": ["ai", "data analysis", "research", "analytics"],
+      "Description": "50% academic discount for advanced conversational data analysis and visualization capabilities.",
+      "Program Company Icon": "https://julius.ai/favicon.ico",
+      "Apply Link": "https://julius.ai/pricing"
+    },
+    {
+      "Program Name": "Cursor Pro Student",
+      "Program Value": "Free 1 year access",
+      "Tags": ["ai", "coding", "IDE", "development"],
+      "Description": "Free Cursor Pro for 1 year (normally $20/month) via GitHub Student Pack. AI-powered code editor.",
+      "Program Company Icon": "https://cursor.sh/favicon.ico",
+      "Apply Link": "https://cursor.sh/pricing"
+    },
+    {
+      "Program Name": "Leonardo.ai",
+      "Program Value": "150 free images daily",
+      "Tags": ["ai", "image generation", "art", "design"],
+      "Description": "150 free AI-generated images daily. Professional quality image generation for creative projects.",
+      "Program Company Icon": "https://leonardo.ai/favicon.ico",
+      "Apply Link": "https://leonardo.ai/"
+    },
+    {
+      "Program Name": "Adobe Podcast Studio",
+      "Program Value": "Free access",
+      "Tags": ["audio", "podcast", "ai", "enhancement"],
+      "Description": "Professional audio enhancement powered by AI. Remove background noise and enhance voice quality for free.",
+      "Program Company Icon": "https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1674004611/icons/adobe-podcast.png",
+      "Apply Link": "https://podcast.adobe.com/"
+    },
+    {
+      "Program Name": "Runway ML Free Tier",
+      "Program Value": "Free tier access",
+      "Tags": ["ai", "video", "creative", "generation"],
+      "Description": "AI video generation with free tier access. Create professional videos with AI-powered tools.",
+      "Program Company Icon": "https://images.seeklogo.com/logo-png/61/1/runway-icon-logo-png_seeklogo-611693.png",
+      "Apply Link": "https://runwayml.com/"
+    },
+    {
+      "Program Name": "Auphonic",
+      "Program Value": "2 hours free monthly",
+      "Tags": ["audio", "optimization", "podcast", "production"],
+      "Description": "Free audio optimization up to 2 hours monthly. Automatic audio post-production for podcasts and videos.",
+      "Program Company Icon": "https://auphonic.com/media/pics/AuphonicLogo.jpg",
+      "Apply Link": "https://auphonic.com/"
+    },
+    {
+      "Program Name": "Atlas School AI",
+      "Program Value": "Free access",
+      "Tags": ["ai", "education", "homework", "assistant"],
+      "Description": "AI assistant serving 800,000+ students with completely free access. Superior accuracy for academic queries.",
+      "Program Company Icon": "https://cdn-1.webcatalog.io/catalog/atlas-org/atlas-org-icon-filled-256.webp?v=1726466515556",
+      "Apply Link": "https://atlas.school/"
+    },
+    {
       "Program Name": "Microsoft Office 365 Education",
       "Program Value": "Free lifetime access",
       "Tags": ["productivity", "office", "documents", "email", "cloud storage"],
@@ -181,7 +261,7 @@
       "Program Value": "Free Pro subscription",
       "Tags": ["containers", "DevOps", "cloud", "development"],
       "Description": "Free Docker Pro subscription for students including unlimited private repos and advanced collaboration features.",
-      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg",
+      "Program Company Icon": "/docker.png",
       "Apply Link": "https://www.docker.com/community/get-involved/developer-preview"
     },
     {
@@ -205,7 +285,7 @@
       "Program Value": "Free domain + SSL",
       "Tags": ["domains", "hosting", "SSL", "web"],
       "Description": "Free .me domain for one year and free SSL certificates through GitHub Student Pack.",
-      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Namecheap_Logo.png",
+      "Program Company Icon": "/namecheap.png",
       "Apply Link": "https://www.namecheap.com/github-students/"
     },
     {
@@ -221,7 +301,7 @@
       "Program Value": "Free Pro features",
       "Tags": ["API testing", "development", "collaboration", "automation"],
       "Description": "Free Postman Student Expert certification program with access to Pro features and exclusive learning resources.",
-      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Postman_%28software%29_logo.svg",
+      "Program Company Icon": "/postman.png",
       "Apply Link": "https://www.postman.com/student-program/"
     },
     {
@@ -343,6 +423,22 @@
       "Description": "Free student verification and access to exclusive discounts from hundreds of brands worldwide.",
       "Program Company Icon": "https://www.studentbeans.com/assets/images/sb-logo.svg",
       "Apply Link": "https://www.studentbeans.com/in"
+    },
+    {
+      "Program Name": "Zoho Young Creators Program",
+      "Program Value": "Free 1 year access",
+      "Tags": ["productivity", "CRM", "business", "cloud"],
+      "Description": "Free platform access for one year with campus training. Complete business suite for young entrepreneurs.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/7/7f/Zoho_Corporation_logo.svg",
+      "Apply Link": "https://www.zoho.com/youngcreators/"
+    },
+    {
+      "Program Name": "Oracle Academy Cloud",
+      "Program Value": "Always-free tier",
+      "Tags": ["cloud", "database", "Oracle", "infrastructure"],
+      "Description": "Always-free cloud access including Autonomous Database and compute VMs for institutional members.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+      "Apply Link": "https://academy.oracle.com/"
     }
   ],
   "certifications_and_courses": [
@@ -585,6 +681,102 @@
       "Description": "Free MongoDB courses with certificates. Learn NoSQL database design and administration.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
       "Apply Link": "https://university.mongodb.com/"
+    },
+    {
+      "Program Name": "Physics Wallah YouTube",
+      "Program Value": "Free content",
+      "Tags": ["education", "physics", "chemistry", "math", "JEE"],
+      "Description": "130+ YouTube channels with completely free educational content for JEE, NEET, and board exams.",
+      "Program Company Icon": "https://physicswallah.live/favicon.ico",
+      "Apply Link": "https://www.youtube.com/physicswallah"
+    },
+    {
+      "Program Name": "Unacademy Free Courses",
+      "Program Value": "2,400+ free courses",
+      "Tags": ["education", "competitive exams", "learning", "test prep"],
+      "Description": "2,400+ free courses with scholarship programs up to 90% off premium features for competitive exam preparation.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Unacademy_logo.png",
+      "Apply Link": "https://unacademy.com/"
+    },
+    {
+      "Program Name": "Doubtnut",
+      "Program Value": "Free doubt-solving",
+      "Tags": ["education", "doubt solving", "AI", "homework help"],
+      "Description": "Completely free doubt-solving through photo upload with AI-powered instant solutions for math and science.",
+      "Program Company Icon": "https://doubtnut.com/favicon.ico",
+      "Apply Link": "https://www.doubtnut.com/"
+    },
+    {
+      "Program Name": "Entri Learning",
+      "Program Value": "Free for needy students",
+      "Tags": ["education", "regional languages", "government exams", "skills"],
+      "Description": "Courses in 6 regional languages with Entri Give program offering free access to needy students.",
+      "Program Company Icon": "https://entri.app/favicon.ico",
+      "Apply Link": "https://entri.app/"
+    },
+    {
+      "Program Name": "Language Curry",
+      "Program Value": "Free language lessons",
+      "Tags": ["languages", "Indian languages", "Sanskrit", "learning"],
+      "Description": "Completely free lessons in 10 Indian languages including Sanskrit, Hindi, Tamil, and more.",
+      "Program Company Icon": "https://languagecurry.com/favicon.ico",
+      "Apply Link": "https://languagecurry.com/"
+    },
+    {
+      "Program Name": "iDream Education",
+      "Program Value": "Free state board content",
+      "Tags": ["education", "state boards", "regional", "K-12"],
+      "Description": "State board content in multiple regional languages for K-12 students across India.",
+      "Program Company Icon": "https://idreameducation.com/favicon.ico",
+      "Apply Link": "https://idreameducation.com/"
+    },
+    {
+      "Program Name": "Masai School",
+      "Program Value": "Pay after placement",
+      "Tags": ["coding", "bootcamp", "placement", "web development"],
+      "Description": "Pay-after-placement program with no upfront fees. Learn full-stack development with job guarantee.",
+      "Program Company Icon": "https://www.masaischool.com/favicon.ico",
+      "Apply Link": "https://www.masaischool.com/"
+    },
+    {
+      "Program Name": "AlmaBetter",
+      "Program Value": "Pay after placement",
+      "Tags": ["data science", "web development", "placement", "bootcamp"],
+      "Description": "Pay-after-placement programs in data science and web development with no upfront costs.",
+      "Program Company Icon": "https://www.almabetter.com/favicon.ico",
+      "Apply Link": "https://www.almabetter.com/"
+    },
+    {
+      "Program Name": "Scaler Academy",
+      "Program Value": "Up to 100% scholarship",
+      "Tags": ["programming", "advanced", "placement", "scholarship"],
+      "Description": "Scholarships up to 100% through merit and need-based programs for advanced programming courses.",
+      "Program Company Icon": "https://www.scaler.com/favicon.ico",
+      "Apply Link": "https://www.scaler.com/"
+    },
+    {
+      "Program Name": "Semantic Scholar",
+      "Program Value": "Free AI research",
+      "Tags": ["research", "AI", "papers", "academic"],
+      "Description": "Completely free AI-powered research across 200M+ academic papers with smart citations.",
+      "Program Company Icon": "https://www.semanticscholar.org/favicon.ico",
+      "Apply Link": "https://www.semanticscholar.org/"
+    },
+    {
+      "Program Name": "Research Rabbit",
+      "Program Value": "Free citation mapping",
+      "Tags": ["research", "citations", "papers", "academic"],
+      "Description": "Free citation mapping and research discovery tool for academic papers and literature reviews.",
+      "Program Company Icon": "https://researchrabbitapp.com/favicon.ico",
+      "Apply Link": "https://www.researchrabbit.ai/"
+    },
+    {
+      "Program Name": "Elicit",
+      "Program Value": "Free AI research",
+      "Tags": ["research", "AI", "systematic review", "academic"],
+      "Description": "Unlimited AI research assistance for systematic reviews and academic research workflows.",
+      "Program Company Icon": "https://elicit.org/favicon.ico",
+      "Apply Link": "https://elicit.org/"
     }
   ],
   "scholarships_and_fellowships": [
@@ -827,6 +1019,14 @@
       "Description": "EU-funded scholarship for joint Masters programs. €1,400/month stipend plus full tuition coverage.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
       "Apply Link": "https://ec.europa.eu/programmes/erasmus-plus/opportunities/individuals/students/erasmus-mundus-joint-masters-scholarships_en"
+    },
+    {
+      "Program Name": "Google for Startups AI Academy India",
+      "Program Value": "Up to $350K cloud credits",
+      "Tags": ["fellowship", "AI", "startup", "Google"],
+      "Description": "Up to $350K in cloud credits for early-stage AI ventures in India with mentorship and resources.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "Apply Link": "https://startup.google.com/ai-academy/"
     }
   ],
   "internships_and_mentorship": [
@@ -989,6 +1189,54 @@
       "Description": "Government platform connecting startups with incubators, mentors, funds, and other resources.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
       "Apply Link": "https://www.startupindia.gov.in/"
+    },
+    {
+      "Program Name": "StuCred",
+      "Program Value": "₹15,000 interest-free",
+      "Tags": ["finance", "loan", "student", "fintech"],
+      "Description": "Interest-free loans up to ₹15,000 exclusively for college students with no CIBIL score requirements.",
+      "Program Company Icon": "https://stucred.com/favicon.ico",
+      "Apply Link": "https://stucred.com/"
+    },
+    {
+      "Program Name": "Internshala",
+      "Program Value": "120,000+ internships",
+      "Tags": ["internship", "portal", "placement", "training"],
+      "Description": "Access to 120,000+ paid internships with training courses and placement guarantees.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Internshala_logo.png",
+      "Apply Link": "https://internshala.com/"
+    },
+    {
+      "Program Name": "StudentPeeps",
+      "Program Value": "Student discounts",
+      "Tags": ["discounts", "shopping", "deals", "student"],
+      "Description": "Discount aggregator providing up to 50% off 300+ brands for verified students.",
+      "Program Company Icon": "https://studentpeeps.com/favicon.ico",
+      "Apply Link": "https://studentpeeps.com/"
+    },
+    {
+      "Program Name": "LetsIntern",
+      "Program Value": "4M students connected",
+      "Tags": ["internship", "portal", "placement", "opportunities"],
+      "Description": "Connects 4 million students to 290,000+ opportunities across 22,000+ companies.",
+      "Program Company Icon": "https://letsintern.com/favicon.ico",
+      "Apply Link": "https://letsintern.com/"
+    },
+    {
+      "Program Name": "Naukri.com Student Services",
+      "Program Value": "Free resume services",
+      "Tags": ["career", "resume", "job portal", "placement"],
+      "Description": "Free resume services and career guidance for students on India's largest job portal.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Naukri_Logo.png",
+      "Apply Link": "https://www.naukri.com/"
+    },
+    {
+      "Program Name": "Study in India Program",
+      "Program Value": "Streamlined access",
+      "Tags": ["education", "international", "government", "universities"],
+      "Description": "Government program offering streamlined access to 1000+ universities with backing.",
+      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
+      "Apply Link": "https://www.studyinindia.gov.in/"
     }
   ]
 }

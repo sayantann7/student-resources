@@ -442,29 +442,68 @@ export default function ResourcesPage() {
                     </div>
 
                     {/* Apply Link */}
-                    <div className="mt-auto">
+                    <div className="mt-auto flex justify-center items-center">
                       <motion.a
                         href={resource["Apply Link"]}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 relative overflow-hidden text-gray-700 w-full justify-center"
+                        className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition-all duration-500 relative overflow-hidden text-white w-full justify-center group"
                         style={{
                           fontFamily: 'Helvetica, Arial, sans-serif',
-                          background: 'rgba(255, 255, 255, 0.15)',
-                          backdropFilter: 'blur(10px)',
-                          WebkitBackdropFilter: 'blur(10px)',
-                          border: '1px solid rgba(255, 255, 255, 0.3)',
+                          background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.8), rgba(147, 51, 234, 0.8), rgba(236, 72, 153, 0.8))',
+                          backgroundSize: '300% 300%',
+                          backdropFilter: 'blur(15px)',
+                          WebkitBackdropFilter: 'blur(15px)',
+                          border: '1px solid rgba(255, 255, 255, 0.4)',
                           boxShadow: `
-                            0 8px 32px rgba(0, 0, 0, 0.1),
-                            inset 0 1px 0 rgba(255, 255, 255, 0.5),
-                            inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-                            inset 0 0 4px 2px rgba(255, 255, 255, 0.2)
-                          `
+                            0 8px 32px rgba(0, 0, 0, 0.15),
+                            inset 0 1px 0 rgba(255, 255, 255, 0.6),
+                            inset 0 -1px 0 rgba(255, 255, 255, 0.2),
+                            inset 0 0 6px 3px rgba(255, 255, 255, 0.3)
+                          `,
+                          animation: 'gradientShift 4s ease-in-out infinite'
                         }}
-                        whileHover={{ scale: 1.05 }}
+                        whileHover={{ 
+                          scale: 1.05,
+                          boxShadow: `
+                            0 12px 40px rgba(147, 51, 234, 0.4),
+                            inset 0 1px 0 rgba(255, 255, 255, 0.8),
+                            inset 0 -1px 0 rgba(255, 255, 255, 0.3),
+                            inset 0 0 8px 4px rgba(255, 255, 255, 0.4)
+                          `,
+                          background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.8), rgba(123, 31, 162, 0.9), rgba(190, 24, 93, 0.8))'
+                        }}
                         whileTap={{ scale: 0.95 }}
                       >
-                        Claim Now
+                        {/* Animated background glow */}
+                        <motion.div
+                          className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                          style={{
+                            background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(147, 51, 234, 0.3), rgba(236, 72, 153, 0.3))',
+                            backgroundSize: '400% 400%',
+                            animation: 'gradientShift 3s ease-in-out infinite'
+                          }}
+                        />
+                        
+                        {/* Shimmer effect */}
+                        <motion.div
+                          className="absolute inset-0 rounded-full"
+                          style={{
+                            background: 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent)',
+                            transform: 'translateX(-100%)'
+                          }}
+                          animate={{
+                            transform: ['translateX(-100%)', 'translateX(100%)']
+                          }}
+                          transition={{
+                            duration: 2,
+                            repeat: Infinity,
+                            repeatDelay: 1,
+                            ease: "easeInOut"
+                          }}
+                        />
+                        
+                        <span className="relative z-10 mt-1">Claim Now</span>
                         <div 
                           className="absolute top-0 left-0 right-0 h-px"
                           style={{
