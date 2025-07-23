@@ -265,7 +265,7 @@ export default function ResourcesPage() {
                 className="text-xl text-gray-600 max-w-2xl mx-auto mb-8"
                 style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
               >
-                Discover 100+ of free tools, courses, and opportunities designed specifically for students
+                Discover 150+ of free tools, courses, and opportunities designed specifically for students
               </p>
             </motion.div>
           </div>
