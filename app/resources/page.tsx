@@ -32,6 +32,11 @@ export default function ResourcesPage() {
       .catch(error => console.error('Error loading resources:', error));
   }, []);
 
+  // Scroll to top when category changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [activeCategory]);
+
   const categories = [
     { key: 'tools_and_software', label: 'Tools & Software', icon: '🛠️' },
     { key: 'certifications_and_courses', label: 'Certifications & Courses', icon: '🎓' },
