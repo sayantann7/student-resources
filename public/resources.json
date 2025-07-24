@@ -18,19 +18,11 @@
     },
     {
       "Program Name": "ChatGPT Plus Student",
-      "Program Value": "2 months free",
+      "Program Value": "3 months free",
       "Tags": ["ai", "chatbot", "openai", "gpt-4"],
       "Description": "2 months free ChatGPT Plus for students in US/Canada. Access to GPT-4, DALL-E, and advanced data analysis.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
       "Apply Link": "https://openai.com/chatgpt/pricing"
-    },
-    {
-      "Program Name": "Microsoft Designer",
-      "Program Value": "Free unlimited access",
-      "Tags": ["ai", "design", "image generation", "DALL-E"],
-      "Description": "Unlimited free DALL-E 3 access without any student verification required. Create professional designs with AI.",
-      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-      "Apply Link": "https://designer.microsoft.com/"
     },
     {
       "Program Name": "HyperWrite Student",
@@ -98,7 +90,7 @@
     },
     {
       "Program Name": "Microsoft Office 365 Education",
-      "Program Value": "Free lifetime access",
+      "Program Value": "Free 3-month access",
       "Tags": ["productivity", "office", "documents", "email", "cloud storage"],
       "Description": "Complete Microsoft Office suite including Word, Excel, PowerPoint, Teams, OneNote, and 1TB OneDrive storage. Free for students with valid school email addresses.",
       "Program Company Icon": "https://mailmeteor.com/logos/assets/PNG/Microsoft_Logo_256px.png",
@@ -122,7 +114,7 @@
     },
     {
       "Program Name": "Adobe Creative Cloud Student",
-      "Program Value": "60% discount",
+      "Program Value": "70% discount",
       "Tags": ["design", "creativity", "photo editing", "video editing"],
       "Description": "Get Photoshop, Illustrator, Premiere Pro, After Effects and 20+ creative apps for ₹1,499/month (60% off regular price). Verification through school email.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg",
@@ -135,14 +127,6 @@
       "Description": "Free Notion Plus plan with unlimited blocks, file uploads, and collaboration features for students and educators with .edu email.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
       "Apply Link": "https://www.notion.com/product/notion-for-education"
-    },
-    {
-      "Program Name": "Canva Pro for Education",
-      "Program Value": "Free Pro access",
-      "Tags": ["design", "graphics", "presentations", "social media"],
-      "Description": "Free Canva Pro with premium templates, unlimited storage, background remover, and team collaboration for verified students.",
-      "Program Company Icon": "/canva.png",
-      "Apply Link": "https://www.canva.com/edu-signup/"
     },
     {
       "Program Name": "Figma Education Plan",
@@ -659,14 +643,6 @@
       "Apply Link": "https://analytics.google.com/analytics/academy/"
     },
     {
-      "Program Name": "TensorFlow Certificate Program",
-      "Program Value": "$100 exam (discounted)",
-      "Tags": ["AI", "machine learning", "TensorFlow", "deep learning"],
-      "Description": "TensorFlow Developer Certificate program with free learning resources. Exam fee required for certification.",
-      "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg",
-      "Apply Link": "https://www.tensorflow.org/certificate"
-    },
-    {
       "Program Name": "Kaggle Learn",
       "Program Value": "Free micro-courses",
       "Tags": ["data science", "machine learning", "Python", "competitions"],
@@ -786,7 +762,7 @@
       "Tags": ["scholarship", "government", "merit", "undergraduate"],
       "Description": "82,000 annual scholarships for students above 80th percentile in Class XII with family income under ₹8 lakhs. ₹12,000/year for first 3 years, ₹20,000 for 4th and 5th year.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
-      "Apply Link": "https://scholarships.gov.in/"
+      "Apply Link": "https://www.myscheme.gov.in/schemes/csss-cus"
     },
     {
       "Program Name": "National Means-Cum-Merit Scholarship",
@@ -794,7 +770,7 @@
       "Tags": ["scholarship", "government", "school", "merit"],
       "Description": "1,00,000 fresh scholarships annually for students with parental income up to ₹1.5 lakh. Covers Classes IX-XII.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
-      "Apply Link": "https://scholarships.gov.in/"
+      "Apply Link": "https://www.myscheme.gov.in/schemes/nmmss"
     },
     {
       "Program Name": "J&K Special Scholarship",
@@ -802,7 +778,7 @@
       "Tags": ["scholarship", "J&K", "government", "special"],
       "Description": "5,000 scholarships for J&K students. Tuition: ₹30,000 (general), ₹1.25 lakhs (engineering), ₹3 lakhs (medical) plus ₹1 lakh maintenance allowance.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg",
-      "Apply Link": "https://scholarships.gov.in/"
+      "Apply Link": "https://www.aicte-jk-scholarship-gov.in/"
     },
     {
       "Program Name": "Indira Gandhi Single Girl Child Scholarship",
@@ -810,7 +786,7 @@
       "Tags": ["scholarship", "UGC", "women", "postgraduate"],
       "Description": "For single girl child below 30 years pursuing PG. ₹36,200/year for 2 years from UGC.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/4b/University_Grants_Commission_India_logo.png",
-      "Apply Link": "https://scholarships.gov.in/"
+      "Apply Link": "https://www.ugc.gov.in/Scholarships/stu_Scholarship4"
     },
     {
       "Program Name": "UGC Merit Scholarship for University Rank Holders",
@@ -818,7 +794,7 @@
       "Tags": ["scholarship", "UGC", "merit", "postgraduate"],
       "Description": "For first/second rank holders at university level. ₹3,100/month for 2 years of PG studies.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/4b/University_Grants_Commission_India_logo.png",
-      "Apply Link": "https://scholarships.gov.in/"
+      "Apply Link": "https://www.myscheme.gov.in/schemes/pgmssurhula"
     },
     {
       "Program Name": "Ishan Uday Special Scholarship",
@@ -826,7 +802,7 @@
       "Tags": ["scholarship", "northeast", "UGC", "special"],
       "Description": "10,000 scholarships for North-East students. ₹5,400/month for general courses, ₹7,800/month for technical/medical.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/4b/University_Grants_Commission_India_logo.png",
-      "Apply Link": "https://scholarships.gov.in/"
+      "Apply Link": "https://www.ugc.gov.in/Scholarships/stu_Scholarship5"
     },
     {
       "Program Name": "INSPIRE Fellowship",
@@ -882,7 +858,7 @@
       "Tags": ["fellowship", "research", "scientists", "returnee"],
       "Description": "For brilliant scientists returning to India. ₹1,35,000/month consolidated plus ₹7 lakh/year research grant.",
       "Program Company Icon": "https://serb.gov.in/assets/images/logo.png",
-      "Apply Link": "https://www.serbonline.in/"
+      "Apply Link": "https://anrfonline.in/ANRF/Ramanujan_fellowship"
     },
     {
       "Program Name": "Women Scientist Scheme-A",
@@ -898,7 +874,7 @@
       "Tags": ["scholarship", "women", "technical", "AICTE"],
       "Description": "For girl students in technical education. ₹50,000/year or tuition fee, whichever is less.",
       "Program Company Icon": "https://www.aicte-india.org/sites/default/files/logo_new.png",
-      "Apply Link": "https://scholarships.gov.in/"
+      "Apply Link": "https://www.aicte.gov.in/schemes/students-development-schemes/Pragati/General-Instructions"
     },
     {
       "Program Name": "AICTE Saksham Scholarship",
@@ -906,7 +882,7 @@
       "Tags": ["scholarship", "disabled", "technical", "AICTE"],
       "Description": "For differently-abled students in technical education. ₹50,000/year support.",
       "Program Company Icon": "https://www.aicte-india.org/sites/default/files/logo_new.png",
-      "Apply Link": "https://scholarships.gov.in/"
+      "Apply Link": "https://www.aicte.gov.in/schemes/students-development-schemes/Saksham/General-Instructions"
     },
     {
       "Program Name": "Google Generation Scholarship",
@@ -938,7 +914,7 @@
       "Tags": ["scholarship", "merit", "need-based", "Reliance"],
       "Description": "Merit-cum-means scholarship covering up to ₹2 lakhs for undergraduate students across India.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/9/99/Reliance_Foundation_Logo.jpg",
-      "Apply Link": "https://reliancefoundation.org/scholarships"
+      "Apply Link": "https://www.scholarships.reliancefoundation.org/UG_Scholarship.aspx"
     },
     {
       "Program Name": "Tata Scholarship Cornell University",
@@ -946,7 +922,7 @@
       "Tags": ["scholarship", "international", "Tata", "Cornell"],
       "Description": "For Indian students at Cornell University. Covers approximately $25,000 per year based on need.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tata_logo.svg",
-      "Apply Link": "https://admissions.cornell.edu/financial-aid/types-aid/scholarships/tata-scholarship"
+      "Apply Link": "https://admissions.cornell.edu/how-to-apply/first-year-international-applicants#info-tata"
     },
     {
       "Program Name": "Narotam Sekhsaria Scholarship",
@@ -978,7 +954,7 @@
       "Tags": ["scholarship", "international", "postgraduate", "development"],
       "Description": "For outstanding students from developing countries. 50% grant and 50% loan basis for PG studies.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aga_Khan_Foundation_logo.svg",
-      "Apply Link": "https://www.akdn.org/akf-scholarships"
+      "Apply Link": "https://the.akdn/en/what-we-do/developing-human-capacity/education/international-scholarships"
     },
     {
       "Program Name": "Rhodes Scholarship India",
@@ -1010,7 +986,7 @@
       "Tags": ["scholarship", "USA", "Fulbright", "research"],
       "Description": "For Masters, PhD, and research in the US. Covers tuition, living expenses, airfare, and health insurance.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Seal_of_the_United_States_Department_of_State.svg",
-      "Apply Link": "https://www.usief.org.in/Fellowships.aspx"
+      "Apply Link": "https://www.usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-masters-fellowships/"
     },
     {
       "Program Name": "Erasmus Mundus Joint Masters",
@@ -1026,7 +1002,7 @@
       "Tags": ["fellowship", "AI", "startup", "Google"],
       "Description": "Up to $350K in cloud credits for early-stage AI ventures in India with mentorship and resources.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-      "Apply Link": "https://startup.google.com/ai-academy/"
+      "Apply Link": "https://startup.google.com/programs/ai-academy/"
     }
   ],
   "internships_and_mentorship": [
@@ -1076,7 +1052,7 @@
       "Tags": ["hackathon", "Flipkart", "competition", "internship"],
       "Description": "National-level hackathon with cash prizes up to ₹1.5 lakhs and internship opportunities at Flipkart.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/7/7a/Flipkart_logo.svg",
-      "Apply Link": "https://dare2compete.com/o/flipkart-grid-50-flipkart-264742"
+      "Apply Link": "https://mycareernet.in/mycareernet/contests/Flipkart-Flipkart-GRiD-7-0--234"
     },
     {
       "Program Name": "Mentor Together",
@@ -1124,7 +1100,7 @@
       "Tags": ["internship", "research", "USA", "biotech"],
       "Description": "Indo-US research internship in biotechnology and biomedical sciences at top US universities.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/42/Indian_Institute_of_Science_Logo.svg",
-      "Apply Link": "https://www.iusstf.org/program/khorana-program-for-scholars"
+      "Apply Link": "https://iusstf.org/khorana-program-for-scholars"
     },
     {
       "Program Name": "DAAD WISE Scholarship",
@@ -1164,7 +1140,7 @@
       "Tags": ["fellowship", "research", "science", "summer"],
       "Description": "Indian Academy of Sciences Summer Research Fellowship with stipend and travel support.",
       "Program Company Icon": "https://upload.wikimedia.org/wikipedia/en/4/42/Indian_Institute_of_Science_Logo.svg",
-      "Apply Link": "https://www.ias.ac.in/fellowship/"
+      "Apply Link": "https://webjapps.ias.ac.in/fellowship2025/lists/result.jsp"
     },
     {
       "Program Name": "Charpak Lab Scholarship",
